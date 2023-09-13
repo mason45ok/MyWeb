@@ -26,7 +26,26 @@ h1, h2, h3, h4, h5, h6 {
 .blog-pagination {
   margin-bottom: 4rem;
 }
+@font-face {
+  font-family: 'Taipei Sans TC R';
+  src: url('fonts/TaipeiSansTCBeta-Regular.ttf') format('truetype'); /* 替换为实际字体文件的路径 */
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Taipei Sans TC L';
+  src: url('fonts/TaipeiSansTCBeta-Light.ttf') format('truetype'); /* 替换为实际字体文件的路径 */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Taipei Sans TC B';
+  src: url('fonts/TaipeiSansTCBeta-Bold.ttf') format('truetype'); /* 替换为实际字体文件的路径 */
+  font-weight: normal;
+  font-style: normal;
+}
 /*
  * Blog posts
  */
