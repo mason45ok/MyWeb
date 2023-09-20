@@ -65,7 +65,9 @@
   })
 
   window.addEventListener('DOMContentLoaded', () => {
-    showActiveTheme(getPreferredTheme())
+    setStoredTheme('light')
+    setTheme('light')
+
 
     document.querySelectorAll('[data-bs-theme-value]')
       .forEach(toggle => {
